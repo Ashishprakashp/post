@@ -1,0 +1,72 @@
+body{
+    background-image:url("resources/dashboard2.jpg");
+    margin: 0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(3px);
+}
+#head{
+    background-color: rgba(0,0,0,.7);
+    padding: 0px 0px 10px 0px;
+    margin-top: 0px;
+    height: 65px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  float: left;
+  
+}
+.lia {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+.li{
+    padding-top: 5px;
+
+}
+
+a:hover{
+    background-color: gray;
+}
+a:active{
+    transform: translateY(4px);
+}
+#logotxt{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 70px;
+}
+#logo{
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+#first{
+    margin-left: 62%;
+}
+#user{
+    width: 200px;
+}
+#edit{
+    filter: grayscale(100%);
+}
+#pic{
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 1400px;
+    margin-left: 50px;
+    border-color: rgb(114, 75, 255);
+    border: 15px;
+    border-radius: 50px;
+}
+#form{
+    padding-left: 0px;
+}

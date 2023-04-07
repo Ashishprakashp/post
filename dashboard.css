@@ -1,0 +1,169 @@
+body{
+    background-image:url("resources/dashboard2.jpg");
+    margin: 0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(3px);
+}
+#head{
+    background-color: rgba(0,0,0,.7);
+    padding: 0px 0px 10px 0px;
+    margin-top: 0px;
+    height: 65px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  float: left;
+  
+}
+.lia {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+.li{
+    padding-top: 5px;
+
+}
+
+a:hover{
+    background-color: gray;
+}
+a:active{
+    transform: translateY(4px);
+}
+#logotxt{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 70px;
+}
+#logo{
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+#home{
+    margin-left: 800px;
+}
+#first{
+    margin-left: 62%;
+}
+#user{
+    width: 200px;
+}
+#newjob{
+    background-image: url("resources/create_job2.png");
+    width: 524px;
+    height: 453px;
+    background-repeat: no-repeat;
+    
+    margin-left: 0px;
+    padding-top: 170px;
+    padding-left: 0px;
+    
+}
+#newbtn{
+    background-color: rgb(45,66,171);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-right: 100px;
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+
+#createbtn{
+    background-color: rgb(45,66,171);
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+#createbtn:hover{
+    background-color: rgb(36, 53, 136);
+    transform: scale(1.05); 
+}
+#createbtn:active{
+    background-color: rgb(45,66,171);
+    transform: scale(1.05); 
+}
+#plus{
+    width: 20px;
+    margin-left: 20px;
+    padding-top: 5px;     
+    padding-bottom: 5px;
+}
+#editbtn{
+    background-color: rgb(45,66,171);
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 60px;
+    font-size: 20px;
+    
+}
+#editbtn:hover{
+    background-color: rgb(36, 53, 136);
+    transform: scale(1.05); 
+}
+#editbtn:active{
+    background-color: rgb(45,66,171);
+    transform: scale(1.05); 
+}
+#edit{
+    margin-left: 42px;
+    padding-top: 10px;
+}
+#feedback{
+    background-image: url("resources/feedback2.png");
+    width: 300px;
+    height: 283px;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-top: 470px;
+    padding-top: 0px;
+    padding-left: 20px;
+    display: block;
+}
+#feed{
+    
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 70px;
+    color: white;
+    
+}
+#createfeed{
+    background-color: white;
+    padding: 30px 85px 100px 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#createfeed:hover{
+    transform: scale(1.05);
+}
+#createfeed:active{
+    background-color: rgb(174, 174, 174);
+    transform: scale(1.05);      
+}
+#search{
+    background-image: url("resources/search_box2.png");
+    margin-top: 90px;
+    width: 300px;
+    height: 550px;
+    margin-left: 50px;
+}

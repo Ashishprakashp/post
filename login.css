@@ -1,0 +1,91 @@
+#log{
+    text-align:center;
+    width:350px;
+    height: 450px;
+    background-image:url("resources/signin_card1.png");
+    background-repeat: no-repeat;
+    margin-top:80px;
+    padding:0px 0px 0px 0px;
+    opacity: 75%;
+    }
+    #logbtn{
+    border-color:black;
+    border-radius: 2px;
+    border: 1px solid;
+    padding: 9px 90px 9px 90px;
+    font-size:20px;
+    background-color: rgb(56, 70, 169);
+    color:white;
+    }
+    #logbtn:hover{
+        background-color: rgb(47, 58, 141);
+    }
+    #logbtn:active {
+      background-color: rgb(56, 70, 169);
+      box-shadow: 0 5px rgba(0,0,0,0.5);
+      transform: translateY(4px);
+    }
+    .field{
+        font-size:18px;
+        padding:9px 25px 9px 1px;
+        
+        border:1px solid;
+        border-radius:5px;
+    }
+    body{
+        background-image:url("resources/backgrounds_9.jpg");
+        backdrop-filter: blur(3px);
+        margin:0px 0px 0px 0px;
+        
+    }
+    #signups{
+        text-decoration:none;
+        color:black;
+        font-size:20px;
+    }
+    #signup{
+        text-decoration:none;
+        color:black;
+        font-size:20px;
+      width: 75px;
+      background-color: rgba(255,255,255,0.5);
+      border-radius:10px;
+      padding:5px 5px 5px 7px;
+      margin-left:1200px;
+      margin-top:20px;
+    }
+    #signup:hover{
+        background-color: rgba(255, 255, 255,0.8);
+    }
+    #signup:active {
+      background-color: rgba(255,255,255,0.5);
+      box-shadow: 0 5px rgba(0,0,0,0.5);
+      transform: translateY(4px);
+    }
+    #bar{
+      height:px;
+      background-color: rgb(0,0,0);
+      opacity: 100%;
+    }
+    #logo{
+        width: 200px;
+        margin-left:70px;
+        margin-top: 8px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }

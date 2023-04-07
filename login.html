@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Project</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<ul id="bar">
+    
+   <li> <img src="resources/logo4.png" id="logo"></li>
+<li><a href="signup.html" id="signup"><b>Sign Up</b></a></li>
+</ul>
+<form action="Login.php" method="POST">
+<br><br><center>
+<div id="log"><br><br>
+<h2>SIGN IN</h2><br>
+<input type="email" name="mailid" placeholder="Username" class="field" required><br><br><br>
+<input type="password" name="pass" placeholder="Password" class="field" required><br><br><br>
+<input type="submit" name="login" value="SIGN IN" id="logbtn"><br><br><br>
+Do'nt have an account ?&nbsp<a href="http://localhost/project/signup.php">Sign up</a><br>
+<input type="text" value= "<?php echo $ans; ?>" disabled>
+</div>
+</center>
+</form>
+</body>
+</html>
